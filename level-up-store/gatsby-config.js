@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Level Up Store`,
     description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    author: `@JeremyG`,
   },
   plugins: [
+    "gatsby-plugin-stripe",
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
